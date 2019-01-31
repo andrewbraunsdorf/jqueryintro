@@ -1,0 +1,6 @@
+What jQuery is and how we use it
+jQuery and the DOM ussing CSS selectors
+Adding, removing and changing HTML
+jQuery  event handling
+Animating your page with jQuery 
+Examples and plugins
