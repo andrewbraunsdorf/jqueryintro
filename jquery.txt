@@ -4,3 +4,29 @@ Adding, removing and changing HTML
 jQuery  event handling
 Animating your page with jQuery 
 Examples and plugins
+
+jQuery 
+-Massive
+-Free
+-Open Source
+- Javascript Library
+It is not a programming language in its own right
+
+Javascript library.  Core essentials of js first
+
+Benefits of jQuery
+Makes working with the DOM easier
+Makes animations easier
+Makes event handling easier
+Makes AJAX really simple
+Plus loads more
+
+Chaining
+$(element).hide().show().css({height: 25});
+Code is less verbose
+Things get written quicker
+
+Plugins galore
+Image slider plugin
+Form enhancement plugin
+And more
