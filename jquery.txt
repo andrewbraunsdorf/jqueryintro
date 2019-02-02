@@ -30,3 +30,13 @@ Plugins galore
 Image slider plugin
 Form enhancement plugin
 And more
+
+jQuery Statements
+-Pretty much every jQuery statement starts with a $ (or the jQuery keyword)
+Example
+document.get ElementById(“main-heading”);
+$(“#main-heading”);
+ 
+No matter what we ask for in the DOM with a jQuery statement, will always return a jQuery object that represents that element
+When we grab something using jQuery, it wraps them in a wrapper and returns a jquery object that has access to jquery methods and properties
+But at any point we can unwrap the query object, and return a vanilla object
