@@ -1,3 +1,22 @@
+// // next
+// $("#contact-methods").next().css({border: "3px solid red"});
+
+// // next
+// $("#social-nav").prev().css({border: "3px solid blue"});
+
+// // parent
+// $(".banner-title").parents().css({border: "3px solid pink"});
+
+// parent
+// $(".banner-title").parents().css({border: "3px solid pink"});
+
+// $("#social-nav").children().css({border: "3px solid green"});
+
+// $("#contact").find(".facebook").css({border: "3px solid purple"});
+
+
+$("#social-nav").closest(".wrapper").css({border: "3px solid orange"});
+
 // $("header nav li:first").css({border: "2px solid red"});
 // $("header nav li:last").css({border: "2px solid red"});
 
@@ -21,7 +40,7 @@
 // $("img[alt]").css({border: "2px solid pink"});
 
 //attribute filters
-$("img[alt=quote]").css({border: "2px solid purple"});
+// $("img[alt=quote]").css({border: "2px solid purple"});
 
 
 
