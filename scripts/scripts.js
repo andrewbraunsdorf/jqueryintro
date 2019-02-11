@@ -1,6 +1,11 @@
-// $("#contact img").removeAttr("alt");
-console.log($("#contact img").attr("alt"));
+// console.log($("#social-nav").css("position"));
+// console.log($("#social-nav").css("top"));
 
 
-// .removeAttr() removes an attribute completely
-// .attr() can read or set any attribute
+
+$("#social-nav").css({
+	"top" : "-400px",
+	"left" : "150px",
+	"opacity" : "0.5",
+	"border-top" : "4px solid red"
+});
