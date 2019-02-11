@@ -1,15 +1,15 @@
-var button = $("#lead-banner a");
 
-button[0].onclick = function(){
+
+var myLis = $("#points-of-sale li");
+
+myLis.on("click", function(){
 	
-	$("#points-of-sale").toggleClass("open");
-	return false;
+	$(this).css({"background": "pink"});
 	
-};
+	myLis.off("click");
+})
 
-// $("header .wrapper").removeClass("wrapper");
-// $("header > div").addClass("wrapper");
 
-// .removeClass() - removes a class from the matched elements
-// .addClass() - adds a class to the matched element(s)
-// .toggleClass - toggles the class on and off on their matched element(s)
+
+// on()- binds an event to matched element(s)
+// off() - unbinds event from matched element(s)
