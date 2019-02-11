@@ -1,15 +1,26 @@
-var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'>The big fight live: Ham vs Cheese!</div>"
+var wrapper = "<div class ='wrapper'>";
+var button = $(".button");
+var wrapped = true;
 
-$("#tweets p").text(tweet)
-// //ADDING & Changing Content
+button[0].onclick = function(){
+	
+	if(wrapped){
+		$("section").unwrap();
+		wrapped = false;
+		button.text("Wrap");
+	} else{
+		$("section").wrapAll(wrapper);
+		wrapped = true;
+		button.text("Unwrap");
+	}
+	
+};
 
-// .append() adds content to bottom of the element
-// .prepend() adds content to the top of element
-// .before() adds content before element
-// .after() adds content after element
-// .html() changeds the whole html of element
-// .text() changes text of an element
 
-// $("#contact-methods").css({border: "2px solid red"})
-// . next().css({border: "2px solid green"})
-// .closest("section").css({border: "2px solid blue"});
+// $("section").wrap("<div>");
+// $("section").unwrap();
+// $("section").wrapAll("<div>");
+
+// // wrap() - raps all matched elements individually
+// // unwrap() - unwraps all matched elements
+// // wrapAll() - wraps all elements combined with 1 single element
