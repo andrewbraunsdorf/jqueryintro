@@ -41,7 +41,7 @@ No matter what we ask for in the DOM with a jQuery statement, will always return
 When we grab something using jQuery, it wraps them in a wrapper and returns a jquery object that has access to jquery methods and properties
 But at any point we can unwrap the query object, and return a vanilla object
 
-
+Version9.0
 // //ADDING & Changing Content
 
 // .append() adds content to bottom of the element
@@ -50,3 +50,19 @@ But at any point we can unwrap the query object, and return a vanilla object
 // .after() adds content after element
 // .html() changeds the whole html of element
 // .text() changes text of an element
+
+Version10.0
+// $("section").wrap("<div>");
+// $("section").unwrap();
+// $("section").wrapAll("<div>");
+
+// // wrap() - raps all matched elements individually
+// // unwrap() - unwraps all matched elements
+// // wrapAll() - wraps all elements combined with 1 single element
+
+Version11
+$(".button").remove();
+$("#contact img").remove();
+
+// .empty() - empties the inner HTML of an element
+// .remove() - removes the element completely

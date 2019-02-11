@@ -1,26 +1,5 @@
-var wrapper = "<div class ='wrapper'>";
-var button = $(".button");
-var wrapped = true;
+$(".button").remove();
+$("#contact img").remove();
 
-button[0].onclick = function(){
-	
-	if(wrapped){
-		$("section").unwrap();
-		wrapped = false;
-		button.text("Wrap");
-	} else{
-		$("section").wrapAll(wrapper);
-		wrapped = true;
-		button.text("Unwrap");
-	}
-	
-};
-
-
-// $("section").wrap("<div>");
-// $("section").unwrap();
-// $("section").wrapAll("<div>");
-
-// // wrap() - raps all matched elements individually
-// // unwrap() - unwraps all matched elements
-// // wrapAll() - wraps all elements combined with 1 single element
+// .empty() - empties the inner HTML of an element
+// .remove() - removes the element completely
