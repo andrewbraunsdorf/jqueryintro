@@ -351,6 +351,9 @@ section#points-of-sale ul{
     height: 100%;
 }
 
+.open{
+    height: auto !Important;
+}
 
 
 
