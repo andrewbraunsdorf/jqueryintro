@@ -40,3 +40,13 @@ $(“#main-heading”);
 No matter what we ask for in the DOM with a jQuery statement, will always return a jQuery object that represents that element
 When we grab something using jQuery, it wraps them in a wrapper and returns a jquery object that has access to jquery methods and properties
 But at any point we can unwrap the query object, and return a vanilla object
+
+
+// //ADDING & Changing Content
+
+// .append() adds content to bottom of the element
+// .prepend() adds content to the top of element
+// .before() adds content before element
+// .after() adds content after element
+// .html() changeds the whole html of element
+// .text() changes text of an element
