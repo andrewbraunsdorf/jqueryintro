@@ -66,3 +66,7 @@ $("#contact img").remove();
 
 // .empty() - empties the inner HTML of an element
 // .remove() - removes the element completely
+
+version12
+// .removeAttr() removes an attribute completely
+// .attr() can read or set any attribute

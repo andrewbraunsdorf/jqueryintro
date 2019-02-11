@@ -1,5 +1,6 @@
-$(".button").remove();
-$("#contact img").remove();
+// $("#contact img").removeAttr("alt");
+console.log($("#contact img").attr("alt"));
 
-// .empty() - empties the inner HTML of an element
-// .remove() - removes the element completely
+
+// .removeAttr() removes an attribute completely
+// .attr() can read or set any attribute
