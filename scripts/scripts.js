@@ -1,15 +1,11 @@
+$("#lead-banner").dblclick(function(){
+	alert("you double clicked me");
+	$("#lead-banner").off("dblclick");
+});
 
-
-var myLis = $("#points-of-sale li");
-
-myLis.on("click", function(){
-	
-	$(this).css({"background": "pink"});
-	
-	myLis.off("click");
-})
-
-
+// $("#lead-banner").on("dblclick", function(){
+// 	alert("you double clicked me");
+// });
 
 // on()- binds an event to matched element(s)
 // off() - unbinds event from matched element(s)
